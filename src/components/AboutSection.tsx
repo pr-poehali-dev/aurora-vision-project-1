@@ -2,19 +2,19 @@ import { Card, CardContent } from "@/components/ui/card"
 import { CheckCircle2, Sparkles } from "lucide-react"
 
 const values = [
-  { title: "Качество", description: "Высококлассные решения, соответствующие самым высоким стандартам" },
-  { title: "Доступность", description: "Профессиональные сайты по честным и прозрачным ценам" },
-  { title: "Прозрачность", description: "Четкая коммуникация без скрытых платежей" },
-  { title: "Клиентоориентированность", description: "Ваши цели и пожелания всегда в приоритете" },
-  { title: "Масштабируемость", description: "Сайты, которые растут вместе с вашим бизнесом" },
-  { title: "Гибкость", description: "Быстрая адаптация под меняющиеся потребности" },
+  { title: "Увлечённость предметом", description: "История и обществознание — это не просто даты и термины, а живые истории людей и общества" },
+  { title: "Индивидуальный подход", description: "Нахожу ключ к каждому ученику, учитывая его темп и стиль обучения" },
+  { title: "Современные методы", description: "Использую интерактивные тесты, дискуссии и проектную деятельность на уроках" },
+  { title: "Подготовка к экзаменам", description: "Системная и эффективная подготовка к ОГЭ и ЕГЭ по истории и обществознанию" },
+  { title: "Открытость и доверие", description: "Создаю атмосферу, в которой ученики не боятся задавать вопросы и высказывать своё мнение" },
+  { title: "Непрерывное развитие", description: "Постоянно совершенствую педагогическое мастерство и слежу за новинками в образовании" },
 ]
 
 const stats = [
-  { number: "50+", label: "Проектов" },
-  { number: "45+", label: "Довольных клиентов" },
-  { number: "30+", label: "Созданных логотипов" },
-  { number: "3+", label: "Года опыта" },
+  { number: "2", label: "Предмета" },
+  { number: "100%", label: "Отдача на уроке" },
+  { number: "ОГЭ", label: "Подготовка" },
+  { number: "ЕГЭ", label: "Подготовка" },
 ]
 
 export function AboutSection() {
@@ -27,19 +27,19 @@ export function AboutSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold">
             <Sparkles className="h-4 w-4" />
-            О CodeCraft
+            О педагоге
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
-            Качество, которое{" "}
+            Педагогика, которая{" "}
             <span className="text-primary relative">
-              впечатляет
+              вдохновляет
               <svg className="absolute -bottom-2 left-0 w-full" height="8" viewBox="0 0 200 8" fill="none">
                 <path d="M0 4C50 2 150 6 200 4" stroke="currentColor" strokeWidth="2" className="text-primary" />
               </svg>
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Создание сайта не должно быть дорогим. Мы разрабатываем индивидуальные решения, которые идеально соответствуют пожеланиям каждого клиента.
+            Уханов Павел Дмитриевич — молодой учитель истории и обществознания, убеждённый в том, что образование должно зажигать интерес, а не гасить его. Каждый урок — это диалог, открытие и шаг вперёд.
           </p>
         </div>
 
